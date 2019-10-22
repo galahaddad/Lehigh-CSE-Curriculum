@@ -1,0 +1,42 @@
+regular
+11122
+Jeremy Floss
+25350
+regular
+22211
+Lara Clark
+5750
+regular
+44422
+Lily Bath
+25350
+savings
+11122
+Paul Raz
+57250
+12.0
+savings
+44411
+Carole Dubois
+12000
+15.0
+savings
+44422
+Felix John
+17255
+9.5
+investment
+44411
+Alex Var
+125350
+shares
+investment
+11177
+Sophie Blank
+258550
+property
+investment
+11122
+Sonia Valyl
+5350
+growth

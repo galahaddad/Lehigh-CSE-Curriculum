@@ -1,0 +1,71 @@
+public static void PrintGardenLayout() {
+    Scanner scanner = new Scanner(System.in);
+    String coords = scanner.next();
+
+    //never learned listed arrays until today :'D yay!
+    List<String> PlotF = new ArrayList<String>();
+    List<String> PlotW = new ArrayList<String>();
+
+    int count = 0;
+    while(scanner.hasNext()) {
+        if (scanner.next().contains("F")){
+            PlotF.add(scanner.next());
+        } else {
+            PlotW.add(scanner.next());
+        }
+        count++;
+    }
+    scanner.close();
+    
+    String [] matrix = coords.split(",");
+    int x = (Integer.parseInt(matrix[0]));
+    int y = (Integer.parseInt(matrix[0]));
+
+    String [][] F = new String[PlotF.size()][];
+    int [] Fx = new int[PlotF.size()];
+    int [] Fy = new int[PlotF.size()];
+    for (int i = 0; i < PlotF.size(); i++) {
+        F[i] = PlotF.get(i).split(",");
+        Fx[i] = Integer.parseInt(F[i][1]);
+        Fy[i] = Integer.parseInt(F[i][2]);
+    }
+
+    String [][] W = new String[PlotW.size()][];
+    int [] Wx = new int[PlotW.size()];
+    int [] Wy = new int[PlotW.size()];
+    for (int i = 0; i < PlotW.size(); i++) {
+        W[i] = PlotW.get(i).split(",");
+        Wx[i] = Integer.parseInt(W[i][1]);
+        Wy[i] = Integer.parseInt(W[i][2]);
+    }
+
+    String[][]resultString = new String[x][y];
+
+    for(int i=0;i<x;i++) {
+        for (int j=0;j<y;j++) {
+            for (int k=0; k<F.length;k++) {
+                if(Fx[k]==i && Fy[k]== j) {
+                    resultString[i][j]="F";
+                }
+            }
+
+            for (int k=0; k<W.length;k++) {
+                if(Wx[k]==i && Wy[k]== j) {
+                    resultString[i][j]="W";
+                }
+            }
+            if(resultString[i][j].isEmpty())
+                resultString[i][j]="B";
+            }
+    }
+
+    for(int i=0;i<x; i++){
+        for(int j=0; j<y; j++){
+        System.out.print(resultString[j][i]);
+        }
+        System.out.println();
+    }
+    
+
+
+}

@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": ". Code Repositories_964b2791"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Network",
+            "request": "launch",
+            "mainClass": "Network",
+            "projectName": ". Code Repositories_964b2791"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bad",
+            "request": "launch",
+            "mainClass": "testsssss.bad",
+            "projectName": ". Code Repositories"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestBankAccount",
+            "request": "launch",
+            "mainClass": "CSE17.assignment2.TestBankAccount",
+            "projectName": ". Code Repositories"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - assignment1",
+            "request": "launch",
+            "mainClass": "assignment1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lab01",
+            "request": "launch",
+            "mainClass": "lab01"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dab",
+            "request": "launch",
+            "mainClass": "dab"
+        }
+    ]
+}
