@@ -28,6 +28,7 @@ public class Recursion {
                 System.out.println("Pathsize is " + filesize + "bytes");
             }
         }
+        System.close();
     }
 
     /**
