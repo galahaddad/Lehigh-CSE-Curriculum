@@ -1,0 +1,11 @@
+Grade: 85
+
+(-15) Does not check for correct input range for integer type
+
+75% program compiles
+
+For each of the following values that their program reads in correct, 
+award 5%.  Since there are six, they only need 5 for full credit. 
+Reading in a value correctly includes correct detections of incorrect 
+input type in numerical inputs.  string inputs are not currently 
+detectable by students.

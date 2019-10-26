@@ -1,0 +1,29 @@
+Homework 3 Grading Rubric
+
+Total Score: 100 Excellent! 
+
+75%: The code compiles
+
+5% comments and code style
+
+
+Prompts the user for the relevant data (10%)
+Works for 2 sets of inputs (10%)
+
+
+HW3:
+
+Enter the distance in meters: 34.23
+34.23 meters is 1347.6378 inches.
+
+Enter the distance in meters: 15.25
+15.25 meters is 600.3937 inches.
+
+
+
+
+The width side of the box is: 8
+The length of the box is: 10
+The height of the box is: 4
+
+The volume inside the box is: 320

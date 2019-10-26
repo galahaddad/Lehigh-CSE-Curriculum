@@ -1,0 +1,32 @@
+Homework 2 Grading Rubric
+
+Total Score: 85 Good
+(-15) Missing Final output lines
+      Numerical values do not match the final output 
+
+75%: The code compiles
+
+5% comments and code style
+
+20%: shipping costs all correct
+
+
+
+
+(15 out of 20) some costs/prices have too many or too few digits
+(10 out of 20) most costs/prices have too many or too few digits
+(5 out of 20)
+(0 out of 20) not functional
+
+
+HW2: 
+
+Total Cost of Pants: $104.94
+Total Cost of Shirts: $49.98
+Total Cost of Belts: $33.99
+Total Sales Tax on Pants: $6.30
+Total Sales Tax on Shirts: $3.00
+Total Sales Tax on Belts: $2.04
+Subtotal for the Sale: $188.91
+Total Sales Tax: $11.33
+Total Cost of the Transaction: $200.24
