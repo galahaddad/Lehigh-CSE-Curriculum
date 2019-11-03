@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 /**
  * @author Ralph Haddad
- * Generics active learning assignment 7
+ * Generics active learning assignment 7 
  */
 public class Generics {
     public static void main(String[] args) {
