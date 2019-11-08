@@ -33,7 +33,7 @@ public class TestGenericGrid {
         GenericGrid<String> grid = new GenericGrid<>(cStrings);
         System.out.println(grid.toString());
         System.out.println(findPath(grid, 3, 0, 0, 4)); //findPath for bernville to hope
-        System.out.println("Number of paths from Reading to Bethlehem: "+(2+findPaths(grid, 4, 0, 2, 2))); //findPath for Reading to Bethlehem
+        System.out.println("Number of paths from Reading to Bethlehem: "+(findPaths(grid, 4, 0, 2, 2))); //findPath for Reading to Bethlehem
     }
 
     /**
@@ -84,8 +84,8 @@ public class TestGenericGrid {
             sumofpaths += findPaths(grid, startRow, startCol+1, endRow, endCol);
         } else if (startRow>endRow && startCol==endCol) {
             sumofpaths += findPaths(grid, startRow-1, startCol, endRow, endCol);
-        } if (startRow==endRow && startCol==endCol) {
-            return sumofpaths;
+        } else if (startRow==endRow && startCol==endCol) {
+            return 2;
         }
         return sumofpaths;
     }
