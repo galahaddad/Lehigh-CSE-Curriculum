@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnimalDB",
+            "request": "launch",
+            "mainClass": "AnimalDB",
+            "projectName": ". Code Repositories_964b2791"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Recursion",
             "request": "launch",
             "mainClass": "Recursion",

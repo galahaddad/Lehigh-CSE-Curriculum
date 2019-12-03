@@ -199,13 +199,19 @@ public class BST<E extends Comparable<E>> implements Tree<E>{
 		}
 	}
 	public int searchComparisons(E item) {
+		TreeNode<E> current = root;
 		int count = 0;
-		for (int i=0; i<size;i++) {
-			count++;
-			if (item.equals(get(i))) {
-				return i;
+		while (current != null) {
+			if( item.compareTo(current.data) < 0) {
+				current = current.left;
+				count++;
+			} else if (item.compareTo(current.data)> 0) {
+				current = current.right;
+				count++;
+			} else {
+				break;
 			}
 		}
-		return -1;
+		return count;
 	}
 }
