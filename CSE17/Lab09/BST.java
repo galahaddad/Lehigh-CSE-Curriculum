@@ -198,4 +198,14 @@ public class BST<E extends Comparable<E>> implements Tree<E>{
 			inorder();// rebuild the list
 		}
 	}
+	public int searchComparisons(E item) {
+		int count = 0;
+		for (int i=0; i<size;i++) {
+			count++;
+			if (item.equals(get(i))) {
+				return i;
+			}
+		}
+		return -1;
+	}
 }
