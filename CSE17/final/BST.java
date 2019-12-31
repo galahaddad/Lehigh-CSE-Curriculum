@@ -1,5 +1,9 @@
+import java.util.ArrayList;
+
 public class BST<E extends Comparable<E>> implements Tree<E>{
+
 	// Data members
+	public static int iterations = 0;  //iteration counter
 	private TreeNode<E> root;
 	private int size;
 
@@ -150,6 +154,7 @@ public class BST<E extends Comparable<E>> implements Tree<E>{
 		Object[] list = new Object[size()];
 		InorderIterator iterator = iterator();
 		for (int i=0; i<size(); i++) {
+			iterations++;
 			list[i] = iterator.next();
 		}
 		return list;
@@ -213,5 +218,20 @@ public class BST<E extends Comparable<E>> implements Tree<E>{
 			}
 		}
 		return count;
+	}
+
+	/**
+	 * sortedNodes impliments the in-order traversal of the tree to get the nodes in order
+	 * Time complexity O(n)
+	 * @return sortedNodes
+	 */
+	public ArrayList<Object> sortedNodes() {
+		ArrayList<Object> sortedNodes = new ArrayList<>();
+		Object [] list = toArray();
+		for(int i=0; i<list.length;i++) {
+			iterations++;
+			sortedNodes.add(list[i]);
+		}
+		return sortedNodes;
 	}
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Sort
  */
 public class Sort {
-    public static long iterations = 0;
+    public static Integer iterations = 0;
 
     /**
      * @return the iterations of most recently used sorting algorithm

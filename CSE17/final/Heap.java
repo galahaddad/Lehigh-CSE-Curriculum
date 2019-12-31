@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * Has a time complexity of O(n log n)
  */
 public class Heap <E extends Comparable<E>> {
-    private static int iterations = 0;  //iteration counter
+    public static int iterations = 0;  //iteration counter
     private ArrayList<E> list ;
 
     public Heap() {
@@ -85,19 +85,20 @@ public class Heap <E extends Comparable<E>> {
         return removedItem;
     }
 
-    public E[] sortedNodes() {
-        ArrayList<E> sortedNodes = new ArrayList<>();
-        for (int i=0; i<list.size();i++) {
-            sortedNodes.add(remove());
-        }
-        return sortedNodes;
-    }
-
     /**
      * @return the iterations
      */
     public static int getIterations() {
         return iterations;
+    }
+
+    public ArrayList<E> sortedNodes() {
+        ArrayList<E> sortedNodes = new ArrayList<>();
+        for (int i=0; i<list.size();i++) {
+            iterations++;
+            sortedNodes.add(remove());
+        }
+        return sortedNodes;
     }
 
 }

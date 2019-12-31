@@ -1,64 +1,53 @@
 /*
-Description: Create an array and add the even and odd indices of the array. It will then compare the total sum of even
-              and odd and will compare it to the last digit in the upc.
-Date of Creation: Nov 8 2019
+Description:This program will shuffle a deck and get the first 5 numbers of the array that contains the deck.
+            It will then see if a straight was drawn or not.
+Date of Creation: Dec 10 2019
 Author: Paul Vilcapoma
 */
-import java.util.Scanner;
+import java.util.Random;
+import java.util.Arrays;
 public class test{
-  public static void main(String[] args){
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter 12 digits: "); //Asks user for the barcode
-    String barcode = scanner.nextLine();
-    int[] result = extractDigits(barcode); //will create an array for the digits in the array
-    for (int i=0; i<result.length; i++) {
-      System.out.println(result[i]+" ");
-    }
-    int odd= getOddSum(result); //returns sum of the odd in the array
-    int even= getEvenSum(result); //returns the sum of the even in the array
-    System.out.println("The odd sum is: " + odd);
-    System.out.println("The odd sum is: " + even);
-    int total= odd + even; //Calculates the total of odd and even and saves it in total
-    //Will compare if the total and the last digit in the upc are equal or not
-    System.out.println(checkDigit(total, result[11]));//Will Either return true or false
+  public static void main(String [] args){
+    int [] deck= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+                   16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+                   30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+                   44, 45, 46, 47, 48, 49, 50, 52};
+    straight(sort(draw(generateDeck(deck))));
   }
-  public static int[] extractDigits(String bar){
-    int[] array = new int[bar.length()];
-    for(int i = 0; i < bar.length(); i++){
-        array[i] = Integer.parseInt(Character.toString(bar.charAt(i)));
+  public static int[] generateDeck(int [] list){
+    Random random= new Random();
+    for(int i=0; i<list.length; i++){
+      int rand= random.nextInt(52-i);
+      int temp = list[rand];
+      list[rand] = list[i];
+      list[i] = temp;
     }
-    return array;
+    return list;
   }
-  public static int getOddSum(int[] list){
-    int sum = 0;
-    for (int i= 0; i<list.length; i++){
-      if(i % 2 == 0){
-        continue;
-      }
-      else{
-        sum += list[i];
-      }
+  public static int[] draw(int [] list){
+    int [] yer= new int[5];
+    for(int i=0; i<yer.length; i++){
+      yer[i]=list[i];
     }
-    return sum * 3;
+    return yer;
   }
-  public static int getEvenSum(int[] list){
-    int sum = 0;
-    for (int i= 0; i<list.length; i++){
-      if(i % 2 == 0){
-        sum += list[i];
-      }
-      else{
-        continue;
+  public static int[] sort(int [] list){
+    Arrays.sort(list);
+    return list;
+  }
+  public static void straight(int[] list){
+    int num=0;
+    int x=1;
+    for(int i=0; i<list.length; i++){
+      if(list[i]+1 != list[list.length-1-i]){
+         num +=x;
       }
     }
-    return sum;
-  }
-  public static boolean checkDigit(int sum, int ye){
-    if (sum == ye){
-      return true;
+    if(num>0){
+      System.out.println("No straight!");
     }
     else{
-      return false;
+      System.out.println("You have a straight!");
     }
   }
 }

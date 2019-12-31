@@ -81,16 +81,11 @@ public class Heap <E extends Comparable<E>> {
                 break; // the tree is a heap
             }
         }
-        // swap if current is less than the maximum
-        return removedItem;
-    }
 
-    public E[] sortedNodes() {
-        ArrayList<E> sortedNodes = new ArrayList<>();
-        for (int i=0; i<list.size();i++) {
-            sortedNodes.add(remove());
-        }
-        return sortedNodes;
+        // swap if current is less than the maximum
+        
+        
+        return removedItem;
     }
 
     /**

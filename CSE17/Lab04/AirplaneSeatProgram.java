@@ -1,8 +1,6 @@
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
-import java.io.Writer;
 import java.util.Scanner;
 import java.io.File;
 /**
@@ -10,7 +8,6 @@ import java.io.File;
  */
 public class AirplaneSeatProgram {
     public static void main(String[] args) throws InvalidSeatException {
-        InvalidSeatException ISE = new InvalidSeatException();
         Scanner inputScanner=null;
         PrintWriter outputWriter=null;
         File file = null;
@@ -123,6 +120,7 @@ public class AirplaneSeatProgram {
                         }
                         outputWriter.println();
                      }
+                     userIn.close();
                 }
                 //inputScanner.close();
             } else {

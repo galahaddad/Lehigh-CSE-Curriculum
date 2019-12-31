@@ -35,6 +35,7 @@ public class AnimalDB {
             animalList.add(list.get(i));
         }
 
+
         String search = "";
         do {
             System.out.println("Enter an animal name to be searched: ");
@@ -53,6 +54,7 @@ public class AnimalDB {
             }
         } while (true);
 
+        in.close();
     }
     
     /**
