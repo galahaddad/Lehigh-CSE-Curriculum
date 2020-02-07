@@ -1,35 +1,75 @@
-#include<stdio.h>
-#include<string.h>
-#include<dirent.h>
-#include<stdbool.h>
-int main(int argc, char** argv) {
-    bool flag_a = false;
-    bool flag_l = false;
-    for (int i = 0; i < argc; i++)
-    {
-        if(strcmp(argv[i], "-a") == 0) {
-            flag_a=true;
-        }
-        else if(strcmp(argv[i], "-l") == 0) {
-            flag_l=true;
-        }
-    }
-    struct dirent* directory_entry;
-    DIR* dir=opendir(".");  //open current directory_entry
-        
-    //use the flags
-    while(directory_entry = readdir(dir) != NULL) {    
-        char* name = directory_entry->d_name;
-        int type = directory_entry->d_type;
-        printf("Name: %s Type: %d\n", name, type);
-    }
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h> // for strcmp
+#include <dirent.h>
 
-    if(flag_a){
-        printf("A");
+int main(int argc, char** argv) {
+
+  // Set up flag variables
+  bool a_flag = false;
+  bool l_flag = false;
+  
+  // Check to see if flags are set in argv
+  for (int ix = 0; ix < argc; ix++) {
+    if (strcmp(argv[ix],"-a") == 0) {
+      a_flag = true;
     }
-    if(flag_l){
-        printf("L");
+    if (strcmp(argv[ix],"-l") == 0) {
+      l_flag = true;
     }
-    printf("\n");
-    return 0;
+  }
+
+  // Test to see if flags were set
+  // Open dir
+  DIR* dir = opendir(".");
+  struct dirent* entry;
+  // Read file
+  while((entry = readdir(dir)) != NULL) {
+    // get name
+    char* name = entry->d_name;
+    // get type
+    char type = entry->d_type;
+    //when both flags are present
+    if (a_flag==true && l_flag==true)
+    {   
+        if (type == 4) {
+            printf("%s Folder\n", name);
+        }
+        if (type == 8) {
+            printf("%s File\n", name);
+        }
+    }
+    //when neither flags are present
+    else if (a_flag==false && l_flag==false)
+    {
+      if (name[0]!='.')
+      {
+        printf("%s  ", name);
+      }
+      
+    }
+    //when a flag is present
+    else if (a_flag==true && l_flag==false)
+    {
+        printf("%s  ", name);
+    }
+    //when l flag is present
+    else if (a_flag==false && l_flag==true)
+    {
+      if (name[0]!='.')
+      {
+        // printf("%s  ", name);
+        if (type == 4) {
+            printf("%s Folder\n", name);
+        }
+        if (type == 8) {
+            printf("%s File\n", name);
+        }
+      }
+           
+    }
+  }
+  printf("\n");
+  closedir(dir);
+  return 0;
 }
