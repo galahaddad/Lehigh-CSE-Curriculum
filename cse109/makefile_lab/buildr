@@ -1,0 +1,14 @@
+#1/bin/bash
+echo "Building main"
+gcc src/main.c -I include -c
+echo "Building mylib"
+gcc src/mylib.c -I include -c
+echo "Building baz"
+gcc src/bar.c -I include -c
+echo "Linking object files"
+gcc main.o bar.o mylib.o -o main
+mkdir bin
+mv main.o bin/main.o
+my mylib.o bin/mylib.o
+mv bar.o bin/bar.o
+mv main bin/main
