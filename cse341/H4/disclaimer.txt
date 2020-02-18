@@ -1,0 +1,4 @@
+WARNING: none of these java programs run.
+I took out star and her password (which I have changed), to avoid folks just running the code and locking the account.
+
+Also, note that these examples are intended only to illustrate use of JDBC and are most definitely not examples of good programmming.  If you fail to catch exceptions you will lose points on your H4 and your project.  Likewise, you need to prompt for passwords, prompt for input, catch errors and respond in a user-friendly manner, display output in neat, readable format, and employ proper coding practices.

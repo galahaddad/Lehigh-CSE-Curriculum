@@ -1,0 +1,30 @@
+CSE 341 H4, 2/16/20
+Ralph Haddad, Hank Korth
+
+Part 1, SQL Excercise
+
+(a) insert into department values (’History’,’Drown’,99999);
+
+    When this command is used, a new insertion will be made into the destination table department. It suceeds because the DDL command matches the requirements and the database table takes in 3 varchars.
+
+(b)  insert into instructor values (12345,’Cygane’,’Economics’,256000);
+
+    This command is used correctly aswel, meeting the command syntax and the table column syntax.
+
+(c) delete student;
+
+    delete is used to delete members of a table and requires the syntax: DELETE FROM [Table_Name] WHERE Condition
+    In order to remove a table, you must use the drop command.
+
+(d) delete department;
+
+    Department is also a table, and as such cannot be removed using delete. Drop must be used to remove tables.
+
+(e) delete course where course_id = 996;
+
+    This syntax is not correct, as from is missing from the statement. 
+    The correct syntax would be DELETE FROM course WHERE course_id = 996;
+
+
+
+
