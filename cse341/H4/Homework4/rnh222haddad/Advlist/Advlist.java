@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Ralph Haddad
  * Homework Assignment 4, CSE 341
  */
-public class H4 {
+public class Advlist {
     public static void main(String[] args) throws SQLException, IOException, java.lang.ClassNotFoundException {
         Scanner in = new Scanner(System.in);
         String userId, Password, searchstring, finalSearch;
@@ -29,6 +29,7 @@ public class H4 {
                 con.close();
             } catch (SQLException e) {
                 System.out.println("Connect Error. Re-enter login data.");
+                System.out.println(e.getMessage());
                 logincase=false;
             }
         } while (logincase==false);

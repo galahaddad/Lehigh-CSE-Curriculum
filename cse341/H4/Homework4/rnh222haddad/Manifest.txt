@@ -1,0 +1,2 @@
+Main-class: Advlist
+Class-Path: ojdbc8.jar

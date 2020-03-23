@@ -1,56 +1,57 @@
+#include "../../include/whichtools.h"
 #include <stdio.h>
 #include <stdbool.h>
-#include <string.h>     //See the library for string.h. 
-#include <dirent.h>
-#include <stdlib.h>     /* getenv */
-#include "whichtools.h" //includes the library of functions for which
+#include <stdlib.h>
+#include <string.h>
+/* Ralph Haddad, my-which homework-2, Corey Montella
+*/
+int main(int argc, char **argv) {
+    bool a_flag = false;    //a_flag condition
+    int condition = 0;
+    int a = 0;
+    int loopCondition = 1;
+    char *currentPath;      //the current path
+    char *seekingPath;      //the path snipped from strtok
+    char *ptr = getenv("PATH");
+    char path[10000];
 
-
-
-int main(int argc, char** argv) {
-	//set up flag variable
-    bool flag_a = false;
-    //see if flags are used
-    char* keyword = argv[1];
-    int j = 0;
-    // for(int ix=0; ix<argc; ix++) {
-    //     if (strcmp(argv[ix],"-a")==0)
-    //     {
-    //         flag_a = true;
-    //     }
-    //     if (strcmp(argv[ix],"-a")==1) {
-    //         keywords[j] = argv[ix];
-    //         j++;
-    //     }
-    // }
-    //Parses out the path directory into seperated directory paths
-    char* pPath;
-    char* pch;
-    int i=0;
-    pPath = getenv("PATH");
-    pch = strtok(pPath, ":");
-    while(pch != NULL)
-    {
-        
-        //if (file_exists(pch, keyword)) {
-            //prints the current directory
-            printf("%s \n", pch);
-        //}
-
-        // //setup for directory print
-        // DIR* dir = opendir("pch");  //creates a directory for the current path being followed
-        // struct dirent* entry;   //sets a structure for the currently entered path
-        // //internally checks everything within each directory in path for the file
-        // while((entry = readdir(dir)) != NULL) {
-        //         printf("%s \n", pch);
-            
-        // }
-        // closedir(dir);
-        pch = strtok (NULL, ":");
+    //in the case where there is no argument, exits the executeable.
+    if (argc == 1) {
+        return 2;
     }
-    return 0;
-
+    //parse for the -a flag in the executeable run anywhere
+    //flag and input are position independent
+    for(int i = 1; i < argc; i++) {
+        if (strcmp(argv[i], "-a") == 0) {
+            a_flag = true;
+            a = i;
+        }
+    }
     
+    for (int i = 1; i < argc; i++) {
+        if(a != i) {
+            //takes the charstrings to use as paths below
+            strcpy(path, ptr);
+            currentPath = strtok(path, ":");    //parse by colons
+            seekingPath = malloc(strlen(currentPath) + 1);  //reallocates memory of currentPath up one
 
+            while (currentPath != NULL) {
+                strcpy(seekingPath, currentPath); //selects path
+                strcat(seekingPath, "/");   //appends seekingPath
+                strcat(seekingPath, argv[i]);   
+                if(file_exists(seekingPath) == true) {
+                    loopCondition = 0;
+                    printf("%s\n", seekingPath);
+                    if(!a_flag) {   //prints explicitly one path if the a_flag is not true
+                        break;
+                    }
+                }
+                currentPath = strtok(NULL, ":");    //prepares for the next parsed PATH
+            }
+            if (loopCondition == 1) {
+                condition = 1;
+            }
+        }
+    }
+    return condition;
 }
-
