@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9747F87D-7E55-D618-3631-57EC94E30E5A" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="ATM">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>ATM</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:14 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATMID" id="DDFEF584-D567-0F05-B231-350E6861CD4A">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>ATM</sourceObjSchema>
+<sourceObjName>ATMID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANCHID" id="011E241E-143A-CA0E-2903-0C826BC3960D">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>ATM</sourceObjSchema>
+<sourceObjName>BRANCHID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CFCA6DC-B03D-1575-658C-B6BAE032F0F0" referredColumn="206A7580-1A9B-0599-69A7-ECF93964ED36"/>
+</associations>
+</Column>
+<Column name="CITY" id="5A321A6D-93FD-B1B8-E668-D7EFA6FFBFF8">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>ATM</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET" id="75E0914F-E43A-5B4B-013A-320CF64C42CC">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>ATM</sourceObjSchema>
+<sourceObjName>STREET</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C09A303-F2AF-5B9F-ED6C-76A781F8F201" name="ATM_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>ATM_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:22 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFEF584-D567-0F05-B231-350E6861CD4A"/>
+<colUsage columnID="011E241E-143A-CA0E-2903-0C826BC3960D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4361654-78A7-B606-332C-03BA56FC1304" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="ATM_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>ATM_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:19 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFEF584-D567-0F05-B231-350E6861CD4A"/>
+<colUsage columnID="011E241E-143A-CA0E-2903-0C826BC3960D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C40267E3-4344-D747-5152-E3514586D181" name="ATM_FK1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="011E241E-143A-CA0E-2903-0C826BC3960D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4A23BDF-1096-0B42-4A2C-825761FAFD75" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CARD">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARDID" id="E9687FA0-566A-FB1A-F9F9-273D08937085">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>CARDID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="125317AD-FA0C-AB42-A7AC-E8B0F4F126E2" referredColumn="741478DB-E887-2F04-8808-2EEB56DC38A2"/>
+<colAssociation fkAssociation="88BE351F-86B1-C725-BAAE-A3FC46C186B4" referredColumn="653A5011-E29D-1EC6-B1CD-56732A3F61CF"/>
+</associations>
+</Column>
+<Column name="CARDNUMBER" id="05894BA2-1B71-A465-48B2-8370621853AD">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>CARDNUMBER</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88BE351F-86B1-C725-BAAE-A3FC46C186B4" referredColumn="890CCF23-BA35-2FCC-3A4B-1273414AF2C4"/>
+</associations>
+</Column>
+<Column name="EXPIRATION" id="06EAF37B-B44A-7177-C30F-C75EA9C22E82">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>EXPIRATION</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15C51A4D-36A0-542D-E5E7-266DD2C027A8" name="CARD_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9687FA0-566A-FB1A-F9F9-273D08937085"/>
+<colUsage columnID="05894BA2-1B71-A465-48B2-8370621853AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26297A28-A9EC-ACD6-B337-A4431044467F" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CARD_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9687FA0-566A-FB1A-F9F9-273D08937085"/>
+<colUsage columnID="05894BA2-1B71-A465-48B2-8370621853AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C21FD25C-E2AA-CD37-2246-8DA18C2B518C" name="Withdrawl">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:04:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9687FA0-566A-FB1A-F9F9-273D08937085"/>
+<colUsage columnID="05894BA2-1B71-A465-48B2-8370621853AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="389795EA-9540-EE52-7915-1328569B38DB" name="Tied">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:34:38 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9687FA0-566A-FB1A-F9F9-273D08937085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

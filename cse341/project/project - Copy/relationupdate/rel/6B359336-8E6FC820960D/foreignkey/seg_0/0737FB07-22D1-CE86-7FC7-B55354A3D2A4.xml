@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0737FB07-22D1-CE86-7FC7-B55354A3D2A4" containerWithKeyObject="E959192B-E73E-4E39-0D8B-9C7E0526A994" localFKIndex="88773891-6C5E-30BB-A685-53E701F2A49F" name="LOAN">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>LOAN</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:52 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.LOAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C688093-54EA-72DE-5BB4-DCA257AC0028</referredTableID>
+<keyObject>C5D82D76-48BE-EA8B-0593-144B48954A15</keyObject>
+<referredKeyID>C5D82D76-48BE-EA8B-0593-144B48954A15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOANID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

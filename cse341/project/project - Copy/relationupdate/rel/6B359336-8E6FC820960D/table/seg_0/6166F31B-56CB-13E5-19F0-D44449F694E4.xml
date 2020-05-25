@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6166F31B-56CB-13E5-19F0-D44449F694E4" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="BANKBRANCH">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>BANKBRANCH</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRANCHID" id="FF4D4F10-9F9B-3B43-D6BB-3FD9C0749823">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>BANKBRANCH</sourceObjSchema>
+<sourceObjName>BRANCHID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="B4BE7BBA-BEC5-9F9F-31FC-884B2051DE3E">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>BANKBRANCH</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET" id="65774431-6349-5824-27D0-531D5AEB8F09">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>BANKBRANCH</sourceObjSchema>
+<sourceObjName>STREET</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="558DB8CF-7826-24A5-45C2-1719DC6B8B3B" name="BANKBRANCH_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>BANKBRANCH_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4D4F10-9F9B-3B43-D6BB-3FD9C0749823"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D50420F-AA9B-00FE-C167-02D3D0C7E788" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="BANKBRANCH_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>BANKBRANCH_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4D4F10-9F9B-3B43-D6BB-3FD9C0749823"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

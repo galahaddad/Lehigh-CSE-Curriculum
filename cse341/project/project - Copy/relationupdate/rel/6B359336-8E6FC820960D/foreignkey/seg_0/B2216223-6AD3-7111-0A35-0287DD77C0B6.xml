@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2216223-6AD3-7111-0A35-0287DD77C0B6" containerWithKeyObject="2F22F007-958C-045B-42EC-4338D50B31BB" localFKIndex="207807BE-4DB6-A0E3-8A66-DF1C5EF63B13" name="CHECKINGS_FK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CHECKINGS_FK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:37:29 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<importedID>08EFF853-4916-7CAF-8E83-A27DF53EACD7</importedID>
+<referredTableLongName>RNH222.ACCOUNT</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E66E48ED-E56F-A2BB-D76F-B94C68DAD911</referredTableID>
+<keyObject>E7E4CFD4-8DE8-0EFC-0248-C6DB8B141606</keyObject>
+<referredKeyID>E7E4CFD4-8DE8-0EFC-0248-C6DB8B141606</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACCOUNTID,ROUTINGNUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

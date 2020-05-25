@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F22F007-958C-045B-42EC-4338D50B31BB" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CHECKINGS">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CHECKINGS</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MINIMUM" id="82A35D87-4E3F-46B6-9BE4-97EC0E44F50D">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CHECKINGS</sourceObjSchema>
+<sourceObjName>MINIMUM</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNTID" id="741478DB-E887-2F04-8808-2EEB56DC38A2">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CHECKINGS</sourceObjSchema>
+<sourceObjName>ACCOUNTID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2216223-6AD3-7111-0A35-0287DD77C0B6" referredColumn="D6717859-1342-A7F9-526A-293A619140D1"/>
+</associations>
+</Column>
+<Column name="ROUTINGNUM" id="E4B03238-50D8-50EB-CFFF-A90252A2011D">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CHECKINGS</sourceObjSchema>
+<sourceObjName>ROUTINGNUM</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2216223-6AD3-7111-0A35-0287DD77C0B6" referredColumn="DB289216-9166-086D-F9C5-84D21F2216ED"/>
+</associations>
+</Column>
+<Column name="BALANCE" id="2FE18BC0-B030-61F4-30FC-18D118943459">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CHECKINGS</sourceObjSchema>
+<sourceObjName>BALANCE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57AD29E2-178B-4449-BC69-DC6001035B0B" name="CHECKINGS_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CHECKINGS_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A35D87-4E3F-46B6-9BE4-97EC0E44F50D"/>
+<colUsage columnID="741478DB-E887-2F04-8808-2EEB56DC38A2"/>
+<colUsage columnID="E4B03238-50D8-50EB-CFFF-A90252A2011D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D6CCDA-671F-F72D-0727-E2F080DAD8A7" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CHECKINGS_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CHECKINGS_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A35D87-4E3F-46B6-9BE4-97EC0E44F50D"/>
+<colUsage columnID="741478DB-E887-2F04-8808-2EEB56DC38A2"/>
+<colUsage columnID="E4B03238-50D8-50EB-CFFF-A90252A2011D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="207807BE-4DB6-A0E3-8A66-DF1C5EF63B13" name="CHECKINGS_FK">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:37:29 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741478DB-E887-2F04-8808-2EEB56DC38A2"/>
+<colUsage columnID="E4B03238-50D8-50EB-CFFF-A90252A2011D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

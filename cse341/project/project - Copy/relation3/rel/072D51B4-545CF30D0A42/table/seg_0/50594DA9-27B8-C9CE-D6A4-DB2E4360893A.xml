@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50594DA9-27B8-C9CE-D6A4-DB2E4360893A" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="MORGAGE">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>MORGAGE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:15 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECURITY" id="06E31CDF-C63A-E396-6C20-575B1632BBFE">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>SECURITY</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOANID" id="6F2D1AF4-3876-84CB-D697-247C24778D11">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>LOANID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CCBFBB5-4C5A-26CD-3E63-C06D99F0F0F7" referredColumn="B2479E0C-701D-7D30-9B5D-1CDD7D90376E"/>
+</associations>
+</Column>
+<Column name="SIGNED" id="6C04DF47-4FD2-85B4-D353-F08A46766C79">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>SIGNED</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="BC5FAFBA-FE39-F274-4CF0-EFDEC811C888">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTEREST" id="850A830A-495A-B83F-3684-06655B263C48">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>INTEREST</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHLY_PAYMENT" id="08620618-E30B-AA9B-BE2F-119FA4244971">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>MORGAGE</sourceObjSchema>
+<sourceObjName>MONTHLY_PAYMENT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92C632EC-D6CC-5628-5C3C-8B26D8C7BBC7" name="MORGAGE_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>MORGAGE_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:24 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E31CDF-C63A-E396-6C20-575B1632BBFE"/>
+<colUsage columnID="6F2D1AF4-3876-84CB-D697-247C24778D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B662A65-C012-C8B8-5AB5-A900AA649444" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="MORGAGE_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>MORGAGE_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:21 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E31CDF-C63A-E396-6C20-575B1632BBFE"/>
+<colUsage columnID="6F2D1AF4-3876-84CB-D697-247C24778D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E85ADB-1C29-4BEB-CA91-DEA4C3D792D3" name="LOAN">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F2D1AF4-3876-84CB-D697-247C24778D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relationupdate" id="42900842-62C3-7717-1E69-1DDDAA9E4AD2" version="3.5">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:22:23 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>42900842-62C3-7717-1E69-1DDDAA9E4AD2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9396DF67-D054-B7AB-D08A-2B940C4E7672">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="77068E8F-A14A-17E7-CE57-B086488779D6">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

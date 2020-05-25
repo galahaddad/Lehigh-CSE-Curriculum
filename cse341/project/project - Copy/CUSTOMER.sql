@@ -1,0 +1,10 @@
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (36608, 'Annalise', 'Mucklow', '25.05.1988', '310-01-9000', 'F', '7913320225');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (17205, 'Lorrin', 'Nellis', '18.11.1985', '147-16-8976', 'F', '5455987443');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (36211, 'Emanuel', 'Cunney', '12.03.1987', '163-12-9019', 'M', '6415815290');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (87864, 'Brinn', 'Stichel', '19.12.2002', '366-69-9747', 'F', '4118221310');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (14452, 'Vaughn', 'Barbary', '09.10.1984', '728-77-9091', 'M', '3774947090');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (40005, 'Luisa', 'Chretien', '02.09.2001', '240-21-3673', 'F', '6171981518');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (38086, 'Christy', 'Bielfeld', '27.11.1986', '525-64-0685', 'M', '3673921696');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (15410, 'Meier', 'Ferruzzi', '24.09.1984', '155-86-0722', 'M', '6527198897');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (74073, 'Horst', 'Bunney', '26.05.2001', '500-61-1288', 'M', '3795633458');
+insert into CUSTOMER (ID, FIRST, LAST, DOB, SSN, GENDER, PHONE) values (72737, 'Murry', 'Burness', '26.11.2009', '123-65-5696', 'M', '9115384746');

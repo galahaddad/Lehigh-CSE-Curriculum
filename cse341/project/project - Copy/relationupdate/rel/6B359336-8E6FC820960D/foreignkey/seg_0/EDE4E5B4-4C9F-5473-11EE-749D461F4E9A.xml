@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDE4E5B4-4C9F-5473-11EE-749D461F4E9A" containerWithKeyObject="171F88B6-FDD3-9356-07B8-594A463D0F5D" localFKIndex="AB348A12-5609-68A2-8CE6-DBA1CE1FACAE" name="CARDPAYMENT_FK1">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARDPAYMENT_FK1</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:52 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.TRANSACTION</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>2B890883-736F-C2BD-927A-759B208F48A4</referredTableID>
+<keyObject>666D9C6E-FF73-9189-6EAC-361273AB28A4</keyObject>
+<referredKeyID>666D9C6E-FF73-9189-6EAC-361273AB28A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRANSACTIONID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

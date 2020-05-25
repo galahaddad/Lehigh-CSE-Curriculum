@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8B1F029-A681-0DF0-9016-8E999B361D6A" containerWithKeyObject="188BDBCD-F648-A72B-5A85-9A4506271361" localFKIndex="9918D42F-F582-C58A-004C-D716AA1A5661" name="CREDIT_FK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CREDIT_FK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:37:29 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<importedID>5232EF69-C929-ACBC-A8E1-882492ADBB39</importedID>
+<referredTableLongName>RNH222.CARD</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D4A23BDF-1096-0B42-4A2C-825761FAFD75</referredTableID>
+<keyObject>15C51A4D-36A0-542D-E5E7-266DD2C027A8</keyObject>
+<referredKeyID>15C51A4D-36A0-542D-E5E7-266DD2C027A8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CARDID,CARDNUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

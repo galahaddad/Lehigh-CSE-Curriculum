@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08B97CAC-70DF-C27E-E4FA-48E24665C8A9" containerWithKeyObject="E66E48ED-E56F-A2BB-D76F-B94C68DAD911" localFKIndex="9696F052-0F3E-7627-E1DF-901429AE5BFF" name="Transfer">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:27:31 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.TELLER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F98AA3E-6D7F-BD02-3819-C564F9791270</referredTableID>
+<keyObject>2F028BAE-FD85-5C35-BEAC-0E4A007DD342</keyObject>
+<referredKeyID>2F028BAE-FD85-5C35-BEAC-0E4A007DD342</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TELLERID,BRANCHID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RNH222" directorySegmentName="seg_0" id="7C0A0810-69D3-B9F3-41DA-B6F57BBEBA5A">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjName>RNH222</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:41 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<defTableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</defTableSpace>
+<privileges>CREATE SYNONYM, CREATE VIEW, CREATE TABLE, CREATE SESSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="199D9D2E-5057-A30D-A088-02A039DB61D8">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:37:29 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<size>15728640</size>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

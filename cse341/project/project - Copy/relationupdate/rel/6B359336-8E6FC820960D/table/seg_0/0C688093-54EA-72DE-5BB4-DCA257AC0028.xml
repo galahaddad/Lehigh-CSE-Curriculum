@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C688093-54EA-72DE-5BB4-DCA257AC0028" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="LOAN">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>LOAN</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOANID" id="404E8CF4-FFE3-A0D1-31CA-6294327318C1">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>LOANID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DF40D88-21B3-82E1-7FE1-9B9F3AD3DE89" referredColumn="C4D56322-542F-5C56-4A43-E68E8596CB00"/>
+</associations>
+</Column>
+<Column name="SIGNED" id="A061AE84-1ADA-B1FB-5F01-CD5C6E9738F8">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>SIGNED</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="0D9BA7BE-B54D-F2B4-03AA-BAA670D49EFD">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTEREST" id="FB724F67-81F4-FB52-9522-A7141F34382A">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>INTEREST</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHLY_PAYMENT" id="E563A3D9-D4CD-E61F-011E-D8B3AA6CA076">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOAN</sourceObjSchema>
+<sourceObjName>MONTHLY_PAYMENT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D82D76-48BE-EA8B-0593-144B48954A15" name="LOAN_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>LOAN_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:50 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404E8CF4-FFE3-A0D1-31CA-6294327318C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5345197-2F9E-B7BF-E033-F99C5C889DBF" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="LOAN_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>LOAN_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:46 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404E8CF4-FFE3-A0D1-31CA-6294327318C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9975D9CF-6BF6-4C00-81B5-4D7EA3DFB177" name="Payment">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:24:07 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404E8CF4-FFE3-A0D1-31CA-6294327318C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

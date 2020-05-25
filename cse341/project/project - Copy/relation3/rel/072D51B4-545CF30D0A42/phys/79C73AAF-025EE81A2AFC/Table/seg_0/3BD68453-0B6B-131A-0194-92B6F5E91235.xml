@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCOUNT" directorySegmentName="seg_0" id="3BD68453-0B6B-131A-0194-92B6F5E91235">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:14 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>18C1B015-CDD8-D3F4-55DF-4B213CDF785B</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROUTINGNUM" id="5A311A74-28B3-36AD-44E3-F805ED31C0FC">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BALANCE" id="6B8C1AE3-2EA4-ABE7-7603-3D070F7C7541">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNTID" id="9066081C-80C4-6BAF-71DD-78465FC3F6F8">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNT_PK" id="FD08F82A-32EE-9486-2B27-C0021096361D">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:19 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACCOUNT_CUSTOMER_FK" id="BFBD8726-F44E-AF5F-7E3D-350F86D75BD1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:09:07 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCOUNT_PK" id="0EA1E21E-69C1-0098-3268-810B94CE9B41">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:22 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<existingIndex>FD08F82A-32EE-9486-2B27-C0021096361D</existingIndex>
+<indexSegment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

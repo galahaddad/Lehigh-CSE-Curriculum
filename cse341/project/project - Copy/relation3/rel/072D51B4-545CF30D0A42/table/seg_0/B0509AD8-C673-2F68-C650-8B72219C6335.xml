@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0509AD8-C673-2F68-C650-8B72219C6335" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="CARD">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:15 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARDID" id="CC42A0EA-0C52-1B1F-BA2F-969DD4A479A2">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>CARDID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDNUMBER" id="D9A30D0D-FEC7-87D9-C39A-C55F580D26B0">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>CARDNUMBER</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRATION" id="3550EB51-245D-EDA5-AA50-BE1A6FD4DE1A">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARD</sourceObjSchema>
+<sourceObjName>EXPIRATION</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50475A19-22E1-A036-F236-ADE19112C92A" name="CARD_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:23 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC42A0EA-0C52-1B1F-BA2F-969DD4A479A2"/>
+<colUsage columnID="D9A30D0D-FEC7-87D9-C39A-C55F580D26B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CF2B0C1-7F75-0A67-4031-791CDCC52BAF" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="CARD_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARD_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:20 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC42A0EA-0C52-1B1F-BA2F-969DD4A479A2"/>
+<colUsage columnID="D9A30D0D-FEC7-87D9-C39A-C55F580D26B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

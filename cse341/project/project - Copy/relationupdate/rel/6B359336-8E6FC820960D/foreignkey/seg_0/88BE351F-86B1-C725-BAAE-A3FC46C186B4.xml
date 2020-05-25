@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88BE351F-86B1-C725-BAAE-A3FC46C186B4" containerWithKeyObject="D4A23BDF-1096-0B42-4A2C-825761FAFD75" localFKIndex="C21FD25C-E2AA-CD37-2246-8DA18C2B518C" name="Withdrawl">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:04:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.ATM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17D38E8B-C0A1-90DB-6E75-B0EC19AB92B3</referredTableID>
+<keyObject>025DF46F-174F-3AB8-E6C7-DAF8505FAF69</keyObject>
+<referredKeyID>025DF46F-174F-3AB8-E6C7-DAF8505FAF69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ATMID,BRANCHID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DF40D88-21B3-82E1-7FE1-9B9F3AD3DE89" containerWithKeyObject="0C688093-54EA-72DE-5BB4-DCA257AC0028" localFKIndex="9975D9CF-6BF6-4C00-81B5-4D7EA3DFB177" name="Payment">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:24:07 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.LOANPAYMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2526F5E3-B2DF-720C-661A-46C4768BA555</referredTableID>
+<keyObject>5736168E-6529-9404-EC2C-09546865193E</keyObject>
+<referredKeyID>5736168E-6529-9404-EC2C-09546865193E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOANPAYMENTID,TRANSACTIONID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

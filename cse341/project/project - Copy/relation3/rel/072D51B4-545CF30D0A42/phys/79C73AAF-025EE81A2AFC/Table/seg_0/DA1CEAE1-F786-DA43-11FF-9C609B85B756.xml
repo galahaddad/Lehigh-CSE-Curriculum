@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PURCHASE" directorySegmentName="seg_0" id="DA1CEAE1-F786-DA43-11FF-9C609B85B756">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:15 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>18C1B015-CDD8-D3F4-55DF-4B213CDF785B</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PURCHASEID" id="00145A37-770D-47BC-AA38-93761F9663AB">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="8EE149D1-A694-785B-6D74-CA6EC60CEFC0">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTIONDATE" id="95CABD05-E17B-17E8-3FAA-0C1B360D9C36">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTIONID" id="E011FC46-56CE-C948-227D-8AC6A70899FE">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PURCHASE_PK" id="70C25B1F-4D06-330E-1FBE-2205BB881BE0">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:21 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PURCHASE_FK1" id="E02529C9-7D9F-B4D4-0394-CA05361C3DE1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PURCHASE_PK" id="581B7D75-D828-BF0D-7912-3F7E93E0FA4D">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:25 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<existingIndex>70C25B1F-4D06-330E-1FBE-2205BB881BE0</existingIndex>
+<indexSegment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

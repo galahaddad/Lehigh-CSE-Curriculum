@@ -1,0 +1,10 @@
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (4305, 9761, 'Cookshire-Eaton', '51 Nobel Crossing');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (5339, 6580, 'Torre', '7 Linden Plaza');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (7718, 4691, 'Kedungwaru', '7 Twin Pines Junction');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (1056, 1920, 'Basicao Coastal', '2 Mariners Cove Center');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (5169, 2811, 'Dadiharja', '8 Corben Trail');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (2362, 7519, 'Vale de Açores', '54 Meadow Valley Circle');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (3816, 9649, 'Gachancipá', '55435 Welch Pass');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (7627, 8025, 'Linjiang', '1 Hayes Lane');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (7254, 1294, 'Tagbilaran City', '4 Weeping Birch Court');
+insert into ATM (ATMID, BRANCHID, CITY, STREET) values (7134, 8959, 'Huazhai', '53553 Bowman Alley');

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171F88B6-FDD3-9356-07B8-594A463D0F5D" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CARDPAYMENT">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARDPAYMENT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPID" id="68974A72-A4A3-96D9-BE67-E908700D2C68">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARDPAYMENT</sourceObjSchema>
+<sourceObjName>CPID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTIONID" id="9AC7F5D5-C0F3-1ABE-3A7B-78320168D79C">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARDPAYMENT</sourceObjSchema>
+<sourceObjName>TRANSACTIONID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE4E5B4-4C9F-5473-11EE-749D461F4E9A" referredColumn="9335D156-B700-B699-FE04-F98BE05D4174"/>
+<colAssociation fkAssociation="31A7F28B-F7BC-83EA-B9F3-716E08B78600" referredColumn="05894BA2-1B71-A465-48B2-8370621853AD"/>
+</associations>
+</Column>
+<Column name="TRANSACTIONDATE" id="A9B0F05A-72EA-3A1E-AB41-9C0487F42567">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARDPAYMENT</sourceObjSchema>
+<sourceObjName>TRANSACTIONDATE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="9AB7C724-3267-16AF-6472-0BA9284A3457">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CARDPAYMENT</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75D60B58-60FF-4868-3FEA-E124FEF7CFAF" name="CARDPAYMENT_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARDPAYMENT_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68974A72-A4A3-96D9-BE67-E908700D2C68"/>
+<colUsage columnID="9AC7F5D5-C0F3-1ABE-3A7B-78320168D79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA968BD3-E884-C856-68D1-D5AEC684556C" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CARDPAYMENT_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CARDPAYMENT_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68974A72-A4A3-96D9-BE67-E908700D2C68"/>
+<colUsage columnID="9AC7F5D5-C0F3-1ABE-3A7B-78320168D79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB348A12-5609-68A2-8CE6-DBA1CE1FACAE" name="CARDPAYMENT_FK1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:52 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC7F5D5-C0F3-1ABE-3A7B-78320168D79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A0873B-876B-5A21-59E4-753CB8D2256E" name="Paymentv1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:37:33 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC7F5D5-C0F3-1ABE-3A7B-78320168D79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

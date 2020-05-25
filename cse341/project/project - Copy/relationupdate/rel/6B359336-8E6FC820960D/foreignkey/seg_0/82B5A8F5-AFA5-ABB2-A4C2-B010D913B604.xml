@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82B5A8F5-AFA5-ABB2-A4C2-B010D913B604" containerWithKeyObject="E66E48ED-E56F-A2BB-D76F-B94C68DAD911" localFKIndex="8ED87096-2252-A59B-3D8F-45CDA1C380AD" name="Linked">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:02:10 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.BANKBRANCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6166F31B-56CB-13E5-19F0-D44449F694E4</referredTableID>
+<keyObject>558DB8CF-7826-24A5-45C2-1719DC6B8B3B</keyObject>
+<referredKeyID>558DB8CF-7826-24A5-45C2-1719DC6B8B3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BRANCHID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOAN" directorySegmentName="seg_0" id="0C688093-54EA-72DE-5BB4-DCA257AC0028">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A0B8A8E3-7018-C034-6E8F-5A41CD592501</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AMOUNT" id="0D9BA7BE-B54D-F2B4-03AA-BAA670D49EFD">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOANID" id="404E8CF4-FFE3-A0D1-31CA-6294327318C1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIGNED" id="A061AE84-1ADA-B1FB-5F01-CD5C6E9738F8">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTHLY_PAYMENT" id="E563A3D9-D4CD-E61F-011E-D8B3AA6CA076">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTEREST" id="FB724F67-81F4-FB52-9522-A7141F34382A">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOAN_PK" id="B5345197-2F9E-B7BF-E033-F99C5C889DBF">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:46 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Payment" id="9975D9CF-6BF6-4C00-81B5-4D7EA3DFB177">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:24:07 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOAN_PK" id="C5D82D76-48BE-EA8B-0593-144B48954A15">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:50 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<existingIndex>B5345197-2F9E-B7BF-E033-F99C5C889DBF</existingIndex>
+<indexSegment>97122B17-33B1-9EAF-29D5-03C5CA85284D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RNH222" directorySegmentName="seg_0" id="FD747BFA-15F3-7AE6-9DD4-823CBB49BA7E">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjName>RNH222</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:12 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+</UserOraclev10g>

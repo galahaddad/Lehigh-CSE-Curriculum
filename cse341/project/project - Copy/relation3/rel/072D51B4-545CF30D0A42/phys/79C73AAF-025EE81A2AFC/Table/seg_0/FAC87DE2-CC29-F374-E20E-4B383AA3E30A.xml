@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOANPAYMENT" directorySegmentName="seg_0" id="FAC87DE2-CC29-F374-E20E-4B383AA3E30A">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:15 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>18C1B015-CDD8-D3F4-55DF-4B213CDF785B</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATEOFTRANSACTION" id="5FCEABB9-80CB-6EBF-781A-BF8697109E5C">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTIONID" id="A8DB3A97-4BA7-6445-FAD0-09CAE8C11A16">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOANPAYMENTID" id="D9D0BF98-D8DE-0766-BDAB-3A95E2814B61">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="E7E95613-4AFA-0F27-4E8C-2EEDAE69115E">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOANPAYMENT_FK1" id="7D07E9B9-FC88-2DC6-6995-76073A567B68">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

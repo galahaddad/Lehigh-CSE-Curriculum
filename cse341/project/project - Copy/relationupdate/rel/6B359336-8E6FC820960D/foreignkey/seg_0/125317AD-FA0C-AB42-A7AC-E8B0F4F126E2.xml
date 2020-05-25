@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="125317AD-FA0C-AB42-A7AC-E8B0F4F126E2" containerWithKeyObject="D4A23BDF-1096-0B42-4A2C-825761FAFD75" localFKIndex="389795EA-9540-EE52-7915-1328569B38DB" name="Tied">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:34:38 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.CHECKINGS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F22F007-958C-045B-42EC-4338D50B31BB</referredTableID>
+<keyObject>57AD29E2-178B-4449-BC69-DC6001035B0B</keyObject>
+<referredKeyID>57AD29E2-178B-4449-BC69-DC6001035B0B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MINIMUM,ACCOUNTID,ROUTINGNUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

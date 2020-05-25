@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CARD" directorySegmentName="seg_0" id="D4A23BDF-1096-0B42-4A2C-825761FAFD75">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A0B8A8E3-7018-C034-6E8F-5A41CD592501</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CARDNUMBER" id="05894BA2-1B71-A465-48B2-8370621853AD">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXPIRATION" id="06EAF37B-B44A-7177-C30F-C75EA9C22E82">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARDID" id="E9687FA0-566A-FB1A-F9F9-273D08937085">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CARD_PK" id="26297A28-A9EC-ACD6-B337-A4431044467F">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Tied" id="389795EA-9540-EE52-7915-1328569B38DB">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:34:38 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Withdrawl" id="C21FD25C-E2AA-CD37-2246-8DA18C2B518C">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:04:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARD_PK" id="15C51A4D-36A0-542D-E5E7-266DD2C027A8">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<existingIndex>26297A28-A9EC-ACD6-B337-A4431044467F</existingIndex>
+<indexSegment>97122B17-33B1-9EAF-29D5-03C5CA85284D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

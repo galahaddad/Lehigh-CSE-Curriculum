@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2526F5E3-B2DF-720C-661A-46C4768BA555" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="LOANPAYMENT">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>LOANPAYMENT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOANPAYMENTID" id="B1E3D47F-B607-DDCD-A6AA-3D996F63553C">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOANPAYMENT</sourceObjSchema>
+<sourceObjName>LOANPAYMENTID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTIONID" id="C4D56322-542F-5C56-4A43-E68E8596CB00">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOANPAYMENT</sourceObjSchema>
+<sourceObjName>TRANSACTIONID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDBFB903-FA23-6085-4636-87B63BB5BF60" referredColumn="9335D156-B700-B699-FE04-F98BE05D4174"/>
+</associations>
+</Column>
+<Column name="AMOUNT" id="D4F36874-2A50-AA8E-6F3A-1AC446B3C331">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOANPAYMENT</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEOFTRANSACTION" id="363D01FF-D5F9-E8AE-CC4F-5EFED691C2D5">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>LOANPAYMENT</sourceObjSchema>
+<sourceObjName>DATEOFTRANSACTION</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5736168E-6529-9404-EC2C-09546865193E" name="LOANPAYMENT_PK">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:22:35 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1E3D47F-B607-DDCD-A6AA-3D996F63553C"/>
+<colUsage columnID="C4D56322-542F-5C56-4A43-E68E8596CB00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BAB0C33-4085-AD24-7AA7-821FC2837F15" name="LOANPAYMENT_FK1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:52 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D56322-542F-5C56-4A43-E68E8596CB00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="188BDBCD-F648-A72B-5A85-9A4506271361" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CREDIT">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CREDIT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:42 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARDID" id="B81F995F-A82C-8DA8-295F-7A5CBE923CB5">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>CARDID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8B1F029-A681-0DF0-9016-8E999B361D6A" referredColumn="E9687FA0-566A-FB1A-F9F9-273D08937085"/>
+</associations>
+</Column>
+<Column name="INTEREST" id="1CB38A80-667A-CFCE-61B4-279E04624472">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>INTEREST</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMIT" id="8D0AE515-B741-3E81-6B83-0A4C427DA0FD">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>LIMIT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BALANCE" id="A605B2DA-77A4-31A2-7A8D-774595D3CAC9">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>BALANCE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDNUMBER" id="2CCF471D-8D2B-923A-3B00-C52C54C8897D">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>CARDNUMBER</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8B1F029-A681-0DF0-9016-8E999B361D6A" referredColumn="05894BA2-1B71-A465-48B2-8370621853AD"/>
+</associations>
+</Column>
+<Column name="EXPIRATION" id="4FC8EB92-B353-FE7E-45E3-9BCA43457C08">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>CREDIT</sourceObjSchema>
+<sourceObjName>EXPIRATION</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E08AB68A-BCBA-0689-6A17-41633F14E7C6" name="CREDIT_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CREDIT_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:49 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CB38A80-667A-CFCE-61B4-279E04624472"/>
+<colUsage columnID="8D0AE515-B741-3E81-6B83-0A4C427DA0FD"/>
+<colUsage columnID="B81F995F-A82C-8DA8-295F-7A5CBE923CB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8CB5E76-D1D8-5168-8BC8-2F28FEE34034" schemaObject="CB410DF8-4A98-4220-6302-5BFA815D8BA0" name="CREDIT_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CREDIT_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:45 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CB38A80-667A-CFCE-61B4-279E04624472"/>
+<colUsage columnID="8D0AE515-B741-3E81-6B83-0A4C427DA0FD"/>
+<colUsage columnID="B81F995F-A82C-8DA8-295F-7A5CBE923CB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9918D42F-F582-C58A-004C-D716AA1A5661" name="CREDIT_FK">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:37:29 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81F995F-A82C-8DA8-295F-7A5CBE923CB5"/>
+<colUsage columnID="2CCF471D-8D2B-923A-3B00-C52C54C8897D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

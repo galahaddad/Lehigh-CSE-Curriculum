@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA00F8F5-33F7-F812-5625-100651FC4D41" containerWithKeyObject="B582B94F-05B7-C11E-CD8E-45F8AD81F514" localFKIndex="D284C915-2D75-4F62-9CCD-FDF5D8AB579F" name="Signs">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-15 00:18:35 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<referredTableLongName>RNH222.LOAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C688093-54EA-72DE-5BB4-DCA257AC0028</referredTableID>
+<keyObject>C5D82D76-48BE-EA8B-0593-144B48954A15</keyObject>
+<referredKeyID>C5D82D76-48BE-EA8B-0593-144B48954A15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOANID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

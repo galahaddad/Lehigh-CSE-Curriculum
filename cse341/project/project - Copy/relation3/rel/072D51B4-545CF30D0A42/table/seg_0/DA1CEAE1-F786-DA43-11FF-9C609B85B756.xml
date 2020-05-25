@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA1CEAE1-F786-DA43-11FF-9C609B85B756" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="PURCHASE">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>PURCHASE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:15 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PURCHASEID" id="00145A37-770D-47BC-AA38-93761F9663AB">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>PURCHASE</sourceObjSchema>
+<sourceObjName>PURCHASEID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTIONID" id="E011FC46-56CE-C948-227D-8AC6A70899FE">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>PURCHASE</sourceObjSchema>
+<sourceObjName>TRANSACTIONID</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFFE2B9C-B480-6491-5D2B-1591680491A7" referredColumn="AFB5EFB1-A729-4944-447D-8C9B93FA3FCB"/>
+</associations>
+</Column>
+<Column name="TRANSACTIONDATE" id="95CABD05-E17B-17E8-3FAA-0C1B360D9C36">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>PURCHASE</sourceObjSchema>
+<sourceObjName>TRANSACTIONDATE</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="8EE149D1-A694-785B-6D74-CA6EC60CEFC0">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>PURCHASE</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:17 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="581B7D75-D828-BF0D-7912-3F7E93E0FA4D" name="PURCHASE_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>PURCHASE_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:25 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00145A37-770D-47BC-AA38-93761F9663AB"/>
+<colUsage columnID="E011FC46-56CE-C948-227D-8AC6A70899FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C25B1F-4D06-330E-1FBE-2205BB881BE0" schemaObject="B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C" name="PURCHASE_PK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>PURCHASE_PK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:21 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00145A37-770D-47BC-AA38-93761F9663AB"/>
+<colUsage columnID="E011FC46-56CE-C948-227D-8AC6A70899FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E02529C9-7D9F-B4D4-0394-CA05361C3DE1" name="PURCHASE_FK1">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E011FC46-56CE-C948-227D-8AC6A70899FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

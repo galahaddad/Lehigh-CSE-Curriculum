@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ATM" directorySegmentName="seg_0" id="9747F87D-7E55-D618-3631-57EC94E30E5A">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:14 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>18C1B015-CDD8-D3F4-55DF-4B213CDF785B</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BRANCHID" id="011E241E-143A-CA0E-2903-0C826BC3960D">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="5A321A6D-93FD-B1B8-E668-D7EFA6FFBFF8">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STREET" id="75E0914F-E43A-5B4B-013A-320CF64C42CC">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATMID" id="DDFEF584-D567-0F05-B231-350E6861CD4A">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:16 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ATM_PK" id="D4361654-78A7-B606-332C-03BA56FC1304">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:19 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<schemaObject>B4EFFE25-AED3-97B5-0EA1-6DDA1AE0248C</schemaObject>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ATM_FK1" id="C40267E3-4344-D747-5152-E3514586D181">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ATM_PK" id="1C09A303-F2AF-5B9F-ED6C-76A781F8F201">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:22 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<segment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</segment>
+<tableSpace>1EB6B13D-289B-5B71-BBEE-DD1810296C27</tableSpace>
+<existingIndex>D4361654-78A7-B606-332C-03BA56FC1304</existingIndex>
+<indexSegment>0117F6E1-490D-6590-E32C-F84CAFB6D1F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

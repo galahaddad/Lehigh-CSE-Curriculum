@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TELLER" directorySegmentName="seg_0" id="5F98AA3E-6D7F-BD02-3819-C564F9791270">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:43 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A0B8A8E3-7018-C034-6E8F-5A41CD592501</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STREET" id="B37C3E1B-ADBF-67CF-030D-9CB3390B8F9E">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRANCHID" id="BEA209E4-BE0E-3222-1F09-EEDCD7C74B74">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="DFFFF159-B4BA-7D50-3419-644D86F5B96F">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELLERID" id="EC453A34-7FD3-CF3C-C4C8-6C1A5DF40701">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="FE105BC7-3D12-C85B-3346-37098F8DFD1E">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:44 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TELLER_PK" id="299C623C-363C-2845-38D5-AD16543D0C22">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:46 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<schemaObject>CB410DF8-4A98-4220-6302-5BFA815D8BA0</schemaObject>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TELLER_FK1" id="F51129F7-5C7E-D279-6247-FBBBC1EB7100">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:52 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TELLER_PK" id="2F028BAE-FD85-5C35-BEAC-0E4A007DD342">
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-14 23:24:51 UTC</createdTime>
+<ownerDesignName>relationupdate</ownerDesignName>
+<segment>97122B17-33B1-9EAF-29D5-03C5CA85284D</segment>
+<tableSpace>69424AF8-85D4-DC73-1D9C-E7F27F84DBC3</tableSpace>
+<existingIndex>299C623C-363C-2845-38D5-AD16543D0C22</existingIndex>
+<indexSegment>97122B17-33B1-9EAF-29D5-03C5CA85284D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

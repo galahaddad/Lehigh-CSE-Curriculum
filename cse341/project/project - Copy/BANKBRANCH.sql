@@ -1,0 +1,15 @@
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (9761, 'Cookshire-Eaton', '51 Nobel Crossing');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (6580, 'Torre', '7 Linden Plaza');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (4691, 'Kedungwaru', '7 Twin Pines Junction');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (1920, 'Basicao Coastal', '2 Mariners Cove Center');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (2811, 'Dadiharja', '8 Corben Trail');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (7519, 'Vale de Açores', '54 Meadow Valley Circle');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (9649, 'Gachancipá', '55435 Welch Pass');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (8025, 'Linjiang', '1 Hayes Lane');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (1294, 'Tagbilaran City', '4 Weeping Birch Court');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (8959, 'Huazhai', '53553 Bowman Alley');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (9654, 'Patabog', '768 Mariners Cove Junction');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (4143, 'Sentul', '53584 Porter Parkway');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (1124, 'Tuochuan', '5294 Lakewood Place');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (7939, 'Baja Mar', '97583 Jackson Road');
+insert into BANKBRANCH (BRANCHID, CITY, STREET) values (5095, 'Zhongxiao', '02 Kim Trail');

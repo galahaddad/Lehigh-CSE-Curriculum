@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="179CD5B8-189C-8C23-B3BF-4D55B9EC98F0" containerWithKeyObject="68986491-7F73-FA5C-925C-750336B0424E" localFKIndex="05C872D3-4EED-7605-1970-E76DAB2AE904" name="CREDIT_FK">
+<sourceConnName>Lehigh Edgar</sourceConnName>
+<sourceObjSchema>RNH222</sourceObjSchema>
+<sourceObjName>CREDIT_FK</sourceObjName>
+<createdBy>ralph</createdBy>
+<createdTime>2020-04-19 21:01:27 UTC</createdTime>
+<ownerDesignName>relation3</ownerDesignName>
+<referredTableLongName>RNH222.CARD</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B0509AD8-C673-2F68-C650-8B72219C6335</referredTableID>
+<keyObject>50475A19-22E1-A036-F236-ADE19112C92A</keyObject>
+<referredKeyID>50475A19-22E1-A036-F236-ADE19112C92A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CARDID,CARDNUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
