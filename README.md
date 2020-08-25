@@ -5,7 +5,8 @@ This repository contains all of the course work of the Lehigh Computer Science E
 Courses completed:
 -CSE 002
 -CSE 017
+-CSE 109
+-CSE 341
 
 Courses in progress:
--CSE 109 -> Systems Software Engineering
--CSE 341 -> Advanced SQL Databases and Algorithms
+
